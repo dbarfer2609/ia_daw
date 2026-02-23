@@ -49,13 +49,24 @@ Define 3 métricas con valores antes/después:
            Incremento del 10% en conversión.
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
-flowchart TD
-A[Usuario añade producto al carrito] --> B[IA analiza comportamiento]
-B --> C[Calcula probabilidad de abandono]
-C -->|Probabilidad baja| D[Proceso normal]
-C -->|Probabilidad alta| E[Activa incentivo personalizado]
-E --> F[Usuario completa compra]
-D --> G[Compra o abandono]
+``
+Usuario añade producto al carrito
+              |
+              v
+     [IA analiza comportamiento]
+              |
+              v
+  [Calcula probabilidad de abandono]
+       /                   \
+      /                     \
+Probabilidad baja       Probabilidad alta
+      |                       |
+      v                       v
+ [Proceso normal]    [Activa incentivo personalizado]
+      |                       |
+      v                       v
+[Compra o abandono]     [Usuario completa compra]
+``
 
 ## 6) Riesgos y mitigación
 - Riesgo 1: Ofrecer descuentos innecesarios a clientes que comprarían igualmente.
