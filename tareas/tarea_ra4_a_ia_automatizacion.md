@@ -18,25 +18,51 @@
 
 ## 3) DESPUÉS (con IA)
 - ¿Qué automatiza la IA?
-.- Predicción en tiempo real de la possi
+.- Predicción en tiempo real de la probabilidad de abandono.
+.- Activación automática de acciones (descuento, notificación push, email personalizado).
+.- Segmentación inteligente de usuarios según comportamiento.
 - ¿Qué queda para humanos?
+.- Definir estrategias de marketing.
+.- Supervisar resultados.
+.- Ajustar promociones y políticas comerciales
 - Datos necesarios (tipos de datos, sin datos personales):
+.- Tiempo en la página
+.- Número de productos añadidos.
+.- Historial de compras.
+.- Dispositivo utilizado.
+.- Número de visitas previas.
+.- Tiempo de inactividad antes de salir.
 - Modelo/técnica (NLP, clasificación, recomendación, visión, etc.):
+.- Machine Learning supervisado.
+.- Clasificación binaria.
+.- Modelos como Gradient Boosting o redes neuronales.
+.- Análisis de comportamiento.
 
 ## 4) Optimización (mejora medible)
 Define 3 métricas con valores antes/después:
-- Tiempo:
-- Coste:
-- Calidad:
+- Tiempo:  Antes: 2000€ mensuales en campañas masivas poco efectivas.
+           Después: 1.200€ mensuales en campañas personalizadas optimizadas.
+- Coste:   Antes: 2000€ mensuales en campañas masivos poco efectivas.
+           Después: 1.200€ mensuales en campañas personalizadas optimizadas.
+- Calidad: Antes: tasa de recuperación de carritos del 8%.
+           Después: tasa de recuperación del 18%.
+           Incremento del 10% en conversión.
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
-(Pega aquí el diagrama)
+flowchart TD
+A[Usuario añade producto al carrito] --> B[IA analiza comportamiento]
+B --> C[Calcula probabilidad de abandono]
+C -->|Probabilidad baja| D[Proceso normal]
+C -->|Probabilidad alta| E[Activa incentivo personalizado]
+E --> F[Usuario completa compra]
+D --> G[Compra o abandono]
 
 ## 6) Riesgos y mitigación
-- Riesgo 1:
-- Mitigación 1:
-- Riesgo 2:
-- Mitigación 2:
+- Riesgo 1: Ofrecer descuentos innecesarios a clientes que comprarían igualmente.
+- Mitigación 1: Ajustar el umbral de activación del incentivo y evaluar ROI continuamente.
+- Riesgo 2: Modelo poco preciso por datos insuficientes.
+- Mitigación 2: Reentrenamiento periódico y validación cruzada del modelo.
 
 ## 7) Fuente oficial
-- Enlace: 
+- Enlace: Personalización y sistemas predictivos en Amazon
+https://www.aboutamazon.com/
