@@ -50,22 +50,35 @@ Define 3 métricas con valores antes/después:
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
 ``
-Usuario añade producto al carrito
-              |
-              v
-     [IA analiza comportamiento]
-              |
-              v
-  [Calcula probabilidad de abandono]
-       /                   \
-      /                     \
-Probabilidad baja       Probabilidad alta
-      |                       |
-      v                       v
- [Proceso normal]    [Activa incentivo personalizado]
-      |                       |
-      v                       v
-[Compra o abandono]     [Usuario completa compra]
++-------------------------------+
+| Usuario añade producto al carrito |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|  IA analiza comportamiento    |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Calcula probabilidad de abandono |
++-------------------------------+
+       /                  \
+      /                    \
+     v                      v
++------------------+   +-----------------------------+
+| Probabilidad baja |   | Probabilidad alta           |
++------------------+   +-----------------------------+
+        |                        |
+        v                        v
++------------------+   +-----------------------------+
+| Proceso normal   |   | Activa incentivo personalizado |
++------------------+   +-----------------------------+
+        |                        |
+        v                        v
++------------------+   +-----------------------------+
+| Compra o abandono|   | Usuario completa compra     |
++------------------+   +-----------------------------+
 ``
 
 ## 6) Riesgos y mitigación
