@@ -1,9 +1,9 @@
 # Práctica IA (RA4 · a) — Automatización y optimización
 
 ## 1) Proceso elegido
-- Nombre del proceso:
-- Contexto (empresa/servicio web/IT):
-- Rol/es implicados:
+- Nombre del proceso: Predicción de abandono de carrito
+- Contexto (empresa/servicio web/IT): Plataforma de e-commerce
+- Rol/es implicados: 1. Cliente, 2. Sistema web, 3. Departamentos de marketing y  4. Analisis de datos
 
 ## 2) ANTES (sin IA)
 - Pasos (5–7):
