@@ -49,7 +49,7 @@ Define 3 métricas con valores antes/después:
            Incremento del 10% en conversión.
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
-``
+```
 +-------------------------------+
 | Usuario añade producto al carrito |
 +-------------------------------+
@@ -79,7 +79,8 @@ Define 3 métricas con valores antes/después:
 +------------------+   +-----------------------------+
 | Compra o abandono|   | Usuario completa compra     |
 +------------------+   +-----------------------------+
-``
+
+```
 
 ## 6) Riesgos y mitigación
 - Riesgo 1: Ofrecer descuentos innecesarios a clientes que comprarían igualmente.
