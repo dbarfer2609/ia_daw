@@ -7,16 +7,18 @@
 
 ## 2) ANTES (sin IA)
 - Pasos (5–7):
-  1.
-  2.
-  3.
-  4.
-  5.
-- Tiempo aproximado por caso:
-- Problemas / cuellos de botella:
+  1. El cliente navega por la web
+  2. Añade productos al carrito
+  3. El sistema espera a que complete la compra
+  4. Si abandona, se registra el carrito como "no completado"
+  5. Marketing envía campañas generales de recordatorio
+  6. Se analizan métricas globales al final del mes
+- Tiempo aproximado por caso: El análisis se realiza mensualmente.
+- Problemas / cuellos de botella: 1. No se detecta el abandono en tiempo real y 2. Baja tasa de recuperación.
 
 ## 3) DESPUÉS (con IA)
 - ¿Qué automatiza la IA?
+.- Predicción en tiempo real de la possi
 - ¿Qué queda para humanos?
 - Datos necesarios (tipos de datos, sin datos personales):
 - Modelo/técnica (NLP, clasificación, recomendación, visión, etc.):
