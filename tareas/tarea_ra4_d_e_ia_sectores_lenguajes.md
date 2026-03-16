@@ -97,19 +97,35 @@
 
 
 ## 5) Diagrama (ASCII o Mermaid)
-(Pega aquí el diagrama)
-
+```
++-----------------------------+
+|   INTELIGENCIA ARTIFICIAL   |
++-------------+---------------+
+              |
+   +----------+----------+----------+
+   |                     |          |
++--+--+             +----+----+  +--+--+
+|Educ.|             |Banca y  |  |Agric|
+|     |             |Finanzas |  |ultura|
++--+--+             +----+----+  +--+--+
+   |                     |          |
+   |                     |          |
+Aprendizaje        Detección     Agricultura
+adaptativo          de fraude     inteligente
+   |                     |          |
+ Python             Python/Java   Python/C++
+```
 ## 6) Riesgos y mitigación
-- Riesgo 1:
-- Mitigación 1:
-- Riesgo 2:
-- Mitigación 2:
+- Riesgo 1: Uso incorrecto de datos personales o falta de privacidad.
+- Mitigación 1: Aplicar políticas de protección de datos, anonimización y cumplimiento de normativas como el RGPD.
+- Riesgo 2: Dependencia excesiva de sistemas automáticos o errores en los modelos de IA.
+- Mitigación 2: Supervisión humana, validación de los modelos y revisiones periódicas de los sistemas.
 
 ## 7) Conclusión
-- Qué sectores destacan más:
-- Qué lenguajes aparecen con más frecuencia:
-- Qué importancia tiene esto para DAW/DAM:
+- Qué sectores destacan más: Sectores como la educación, las finanzas y la agricultura destacan por el uso de grandes cantidades de datos que pueden ser analizados mediante inteligencia artificial para mejorar procesos y tomar decisiones.
+- Qué lenguajes aparecen con más frecuencia: Python es el lenguaje más utilizado en inteligencia artificial debido a su simplicidad y gran cantidad de librerías. También destacan Java y C++ en aplicaciones empresariales y sistemas de alto rendimiento.
+- Qué importancia tiene esto para DAW/DAM: Los desarrolladores web y de aplicaciones pueden integrar sistemas de inteligencia artificial en sus proyectos, como chatbots, análisis de datos o sistemas de recomendación, lo que mejora la funcionalidad y la innovación de las aplicaciones.
 
 ## 8) Fuentes oficiales (mín. 2)
-- Fuente 1 (sectores / aplicación IA):
-- Fuente 2 (lenguajes / ecosistema técnico):
+- Fuente 1 (sectores / aplicación IA): https://www.ibm.com/topics/artificial-intelligence
+- Fuente 2 (lenguajes / ecosistema técnico): https://www.tensorflow.org/resources/learn-ml
