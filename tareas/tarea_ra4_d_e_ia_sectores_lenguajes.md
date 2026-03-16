@@ -79,16 +79,22 @@
 
 ### Lenguaje 4
 - Nombre: C++
-- Uso principal en IA: Desarrollo
-- Ventajas:
+- Uso principal en IA: Desarrollo de sistema de alto rendimiento y procesamiento intensivo de datos.
+- Ventajas: .- Muy alto rendimiento.
+            .- Control eficiente de memoria.
+            .- Utilizado en motores de IA y librerias avanzadas.
 - Ejemplos de uso:
+  .- Desarrollo de motores de machine learning.
+  .- Procesamiento de imágenes y visión por computador.
+  .- Sistemas que requieren gran velocidad de calculo.
 
 ## 4) Relación entre sectores, tipo de IA y lenguaje
-| Sector | Aplicación de IA | Tipo de IA/técnica | Lenguaje recomendado | Justificación |
-|--------|------------------|--------------------|----------------------|---------------|
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
+| Sector           | Aplicación de IA        | Tipo de IA/técnica                    | Lenguaje recomendado | Justificación                                                                            |
+| ---------------- | ----------------------- | ------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------- |
+| Educación        | Aprendizaje adaptativo  | Machine Learning                      | Python               | Permite crear modelos que analizan datos del estudiante y adaptan el contenido educativo |
+| Banca y finanzas | Detección de fraude     | Machine Learning / análisis de datos  | Python / Java        | Permite analizar grandes volúmenes de transacciones en tiempo real                       |
+| Agricultura      | Agricultura inteligente | Análisis de datos + visión artificial | Python / C++         | Permite procesar datos de sensores, imágenes de drones y predicción de cultivos          |
+
 
 ## 5) Diagrama (ASCII o Mermaid)
 (Pega aquí el diagrama)
